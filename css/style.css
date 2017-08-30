@@ -1,0 +1,9 @@
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", sans-serif;
+
+  color: #fff;
+
+  background: #111 url("../img/body-bg.jpg") no-repeat center top;
+}

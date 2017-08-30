@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Главная</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Прайс лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="index-logo">
+        <img src="img/content-logo.png" width="368px" height="204px" alt="Barbershop borodinski">
+      </div>
+      <section class="features">
+        <div class="features-item">
+          <b class="features-name">Быстро</b>
+          <p>Быстро быстро быстро</p>
+        </div>
+        <div class="features-item">
+          <b class="features-name">Круто</b>
+          <p>Круто круто круто</p>
+        </div>
+        <div class="features-item">
+          <b class="features-name">Дорого</b>
+          <p>Дорого дорого дорого</p>
+        </div>
+      </section>
+      <div class="index-content">
+        <div class="index-content-left">
+          <h2 class="index-content-title">Новости</h2>
+          <ul class="news-preview">
+            <li>
+              <p>Нам наконец завезли Ягермейстер</p>
+              <time datetime="2016-01-11">11 января</time>
+            </li>
+            <li>
+              <p>В нашей команде поплнение</p>
+              <time datetime="2016-01-18">18 января</time>
+            </li>
+          </ul>
+          <a class="btn" href="#">Все новости</a>
+        </div>
+        <div class="index-content-right">
+          <h2 class="index-content-title">Фотогаллерея</h2>
+          <div class="gallery">
+            <figure>
+              <img src="img/content-gallery-picture.jpg" width="286" height="164" alt="">
+            </figure>
+            <button class="btn gallery-prev">Назад</button>
+            <button class="btn gallery-next">Вперед</button>
+          </div>
+        </div>
+      </div>
+      <div class="index-content">
+        <div class="index-content-left">
+          <h2 class="index-content-title">Контактная информация</h2>
+          <p>
+            Барбершоп "Бородинский"<br>
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            Телефон: +7 (812) 666-02-02
+          </p>
+          <p>
+            Время работы:<br>
+            пн - пт: с 10:00 до 22:00<br>
+            сб - вс: с 10:00 до 19:00
+          </p>
+          <a class="btn" href="#">Как проехать</a>
+          <a class="btn" href="#">Обратная связь</a>
+        </div>
+        <div class="index-content-right">
+          <h2 class="index-content-title">Записаться</h2>
+          <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+          <form class="appointment-form" action="index.html/echo" method="post">
+            <input type="text" name="date" value="" placeholder="Дата">
+            <input type="text" name="time" value="" placeholder="Время">
+            <input type="text" name="name" value="" placeholder="Ваше имя">
+            <input type="tel" name="date" value="" placeholder="Телефон">
+            <button class="btn" type="submit" name="button">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп "Бородинский"<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-02
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="#">Команда-А</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
