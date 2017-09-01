@@ -3,7 +3,89 @@ body {
   line-height: 24px;
   font-family: "PT Sans Narrow", sans-serif;
 
-  color: #fff;
+  /*color: #fff;
 
-  background: #111 url("../img/body-bg.jpg") no-repeat center top;
+  background: #111 url("../img/body-bg.jpg") no-repeat center top;*/
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation {
+  float: left;
+  width: 740px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.fuatures {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+
+  text-align: center;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top:60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
 }
